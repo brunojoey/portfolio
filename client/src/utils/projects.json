@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Geolocation Dictionary Application",
+        "image": "/images/web_development/geolocation-app.png",
+        "alt": "Geolocation Dictionary Image",
+        "description": "A dictionary application where you are able to find a definition to a specific word and also see where you are searching from.",
+        "technologies": "HTML, Skeleton CSS, JavaScript, and Github Pages.",
+        "github": "https://github.com/brunojoey/geolocation-dictionary-app",
+        "deploy": "https://brunojoey.github.io/geolocation-dictionary-app/",
+        "claNM": "geolocationImage"
+    },
+    {
+        "title": "Pokedex",
+        "image": "/images/web_development/pokedex-testing.png",
+        "alt": "Pokedex",
+        "description": "Shows all Pokemon with the help of the PokeAPI and each Pokemon has a different page that can be reached through clicking on the Pokemon on the home page.",
+        "technologies": "React, Material UI, PokeAPI",
+        "github": "https://github.com/brunojoey/pokedex-testing",
+        "deploy": "https://brunojoey.github.io/pokedex-testing/",
+        "claNM": "pokedexTesting"
+    },
+    {
+        "title": "The Easy Allies' Hall of Greats",
+        "image": "/images/web_development/hall-of-greats.png",
+        "alt": "The Easy Allies' Hall of Greats",
+        "description": "A showcase of Easy Allies's Hall of Greats, which is their Hall fo Fame for video games.",
+        "technologies": "React, Node.Js, Express, MongoDB, React Bootstrap, Material UI",
+        "github": "https://github.com/brunojoey/ea-hall-of-greats",
+        "deploy": "http://www.thehallofgreats.com",
+        "claNM": "easyAlliesHall"
+    },
+    {
+        "title": "Budget Tracker",
+        "image": "/images/web_development/budget-tracker-image.png",
+        "alt": "Budget Tracker Image",
+        "description": "Website to track your expenses in a chart that changes through the expenses and income you put into the application.",
+        "technologies": "Manifest, Node.Js, Service Worker, Mongoose, and Heroku.",
+        "github": "https://github.com/brunojoey/budget-tracker",
+        "deploy": "https://boiling-lake-39406.herokuapp.com/",
+        "claNM": "budgetImage"
+    }
+]
