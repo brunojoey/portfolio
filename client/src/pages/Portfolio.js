@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Tabs, Tab, AppBar } from "@material-ui/core";
 import ProjectCard from "../components/Project";
 import SocialMediaCard from "../components/SC_Card";
@@ -19,10 +19,10 @@ const Portfolio = props => {
     social_media: 1
   };
 
-  const [selectedTab, setSelectedTab] = React.useState(indexToTabName[page]);
+  const [selectedTab, setSelectedTab] = useState(indexToTabName[page]);
 
   const handleChange = (event, newValue) => {
-    history.push(`/react-portfolio/portfolio/${tabNameToIndex[newValue]}`);
+    history.push(`/portfolio/${tabNameToIndex[newValue]}`);
     setSelectedTab(newValue);
   };
 

@@ -1,7 +1,7 @@
 import React from "react";
 import buildRoutes from "../utils/buildRoutes";
 import Container from "../components/Container";
-import {Row, Col, Image} from "react-bootstrap";
+import { Row, Col, Image } from "react-bootstrap";
 import './style.css';
 
 const joeyBruno = "/images/professional-joey-photo.jpg";
@@ -12,7 +12,7 @@ function Home() {
             <Container>
                 <h1>Joseph Angelo Bruno</h1>
                 <Row>
-                    <Col s={3} m={3} lg={5}>
+                    <Col s={3} m={3} lg={4}>
                         <Image src={buildRoutes(joeyBruno)} alt="Joey Bruno" className="joey" fluid />
                     </Col>
                     <Col className="joeyText m-5" s={9} m={8}>
