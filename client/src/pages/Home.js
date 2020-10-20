@@ -8,9 +8,9 @@ const joeyBruno = "/images/professional-joey-photo.jpg";
 
 function Home() {
     return (
-        <div className="home m-5">
+        <div className="home mt-5" style={{ marginBottom: '7em' }}>
             <Container>
-                <h1>Joseph Angelo Bruno</h1>
+                <h1 className='m-3'>Joseph Angelo Bruno</h1>
                 <Row>
                     <Col s={3} m={3} lg={4}>
                         <Image src={buildRoutes(joeyBruno)} alt="Joey Bruno" className="joey" fluid />
