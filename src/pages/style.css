@@ -20,7 +20,7 @@ body {
 }
 
 .nav-link:after {
-    color: white;
+  color: white;
 }
 
 a:hover {
@@ -95,10 +95,10 @@ footer {
 }
 
 .geolocationImage {
-    width: 75%;
-    height: 100%;
-    border: 0.5em solid;
-    border-color: rgb(0, 80, 150);  
+  width: 75%;
+  height: 100%;
+  border: 0.5em solid;
+  border-color: rgb(0, 80, 150);
 }
 
 .allWebImages {
@@ -179,11 +179,11 @@ footer {
 }
 
 .resume-links {
-    color: white;
+  color: white;
 }
 
 .resume-links-div {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 /* End Resume Page Styling */

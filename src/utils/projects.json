@@ -1,15 +1,5 @@
 [
     {
-        "title": "Geolocation Dictionary Application",
-        "image": "/images/web_development/geolocation-app.png",
-        "alt": "Geolocation Dictionary Image",
-        "description": "A dictionary application where you are able to find a definition to a specific word and also see where you are searching from.",
-        "technologies": "HTML, Skeleton CSS, JavaScript, and Github Pages.",
-        "github": "https://github.com/brunojoey/geolocation-dictionary-app",
-        "deploy": "https://brunojoey.github.io/geolocation-dictionary-app/",
-        "claNM": "geolocationImage"
-    },
-    {
         "title": "Pokedex",
         "image": "/images/web_development/pokedex-testing.png",
         "alt": "Pokedex",
@@ -21,10 +11,10 @@
     },
     {
         "title": "The Easy Allies' Hall of Greats",
-        "image": "/images/web_development/hall-of-greats.png",
+        "image": "/images/web_development/hall-greats.png",
         "alt": "The Easy Allies' Hall of Greats",
         "description": "A showcase of Easy Allies's Hall of Greats, which is their Hall fo Fame for video games.",
-        "technologies": "React, Node.Js, Express, MongoDB, React Bootstrap, Material UI",
+        "technologies": "React, Node.Js, Express, MongoDB, SCSS, React Bootstrap, Material UI",
         "github": "https://github.com/brunojoey/ea-hall-of-greats",
         "deploy": "http://www.thehallofgreats.com",
         "claNM": "easyAlliesHall"
@@ -34,9 +24,39 @@
         "image": "/images/web_development/budget-tracker-image.png",
         "alt": "Budget Tracker Image",
         "description": "Website to track your expenses in a chart that changes through the expenses and income you put into the application.",
-        "technologies": "Manifest, Node.Js, Service Worker, Mongoose, and Heroku.",
+        "technologies": "Manifest, Node.Js, Service Worker, and Mongoose",
         "github": "https://github.com/brunojoey/budget-tracker",
         "deploy": "https://boiling-lake-39406.herokuapp.com/",
         "claNM": "budgetImage"
+    },
+    {
+        "title": "Proshop",
+        "image": "/images/web_development/proshop.png",
+        "alt": "Proshop Image",
+        "description": "MERN Stack Online Shop with the ability to purchase items and create an account. With various other features.",
+        "technologies": "React, Redux, Node.Js, Express, Mongoose, MongoDB, React Bootstrap, Cloudinary",
+        "github": "https://github.com/brunojoey/ecommerce",
+        "deploy": "http://proshop.brunojoey.me",
+        "claNM": "proshopImage"
+    },
+    {
+        "title": "Snippit",
+        "image": "/images/web_development/snippit.png",
+        "alt": "Snippit Image",
+        "description": "Community site that allows web developers to share, search, and respond to code-based questions.",
+        "technologies": "React, Node.Js, Express, Express-Session, MongoDB, Passport, Bcrypt, Ace Editor",
+        "github": "https://github.com/brunojoey/snippit",
+        "deploy": "http://snippit-for-coding.herokuapp.com/",
+        "claNM": "snippitImage"
+    },
+    {
+        "title": "Color Blindness Application",
+        "image": "/images/web_development/color-blindness.png",
+        "alt": "Color Blindness App Image",
+        "description": "An easily accessible hearing and sight tests for rural populations in India. Translated into Hindi, Kannada, Telugu, and Tamil languages.",
+        "technologies": "React, Next.js, Material UI",
+        "github": "https://github.com/StevenMcDonald97/Color-Blindness-Test-App",
+        "deploy": "https://www.the2senses.com",
+        "claNM": "cbImage"
     }
 ]

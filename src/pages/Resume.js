@@ -7,7 +7,9 @@ function Resume() {
       <h1>Joseph Bruno</h1>
       <div className="resume-links-div">
         {" "}
-        <p><strong>Nashville, TN </strong> </p>
+        <p>
+          <strong>Nashville, TN </strong>{" "}
+        </p>
         <a
           href="https://www.linkedin.com/in/brunojoey"
           className="mx-3 resume-links"
@@ -22,10 +24,7 @@ function Resume() {
           Github
         </a>{" "}
         |{" "}
-        <a
-          href="mailto: brunojoey12@gmail.com"
-          className="mx-3 resume-links"
-        >
+        <a href="mailto: brunojoey12@gmail.com" className="mx-3 resume-links">
           Mail
         </a>{" "}
       </div>
