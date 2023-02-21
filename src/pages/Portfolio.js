@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Tabs, Tab, AppBar } from "@material-ui/core";
+import { Tabs, Tab, AppBar } from "@mui/material";
 import ProjectCard from "../components/Project";
 import SocialMediaCard from "../components/SC_Card";
 import "./style.css";
