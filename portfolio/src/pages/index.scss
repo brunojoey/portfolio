@@ -1,0 +1,24 @@
+.portfolio {
+  margin: 1rem;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  &-one, &-two, &-three, &-four, &-five {
+    display: flex;
+    flex-direction: column;
+
+    & > img {
+      margin: 1rem 1rem 1rem 0;
+      border: 5px solid rgb(12, 12, 74);
+      border-radius: 4px;
+      padding: 0.5rem;
+    }
+
+    & > span > p {
+      width: 85%;
+    }
+  }
+}
