@@ -13,8 +13,6 @@ function App() {
       <Header />
         <Routes>
           <Route path="/" element={<Home />}/>
-          {/* <Route path="/portfolio" element={<Portfolio />}/>
-          <Route path="/resume" element={<Resume />}/> */}
           <Route path="/*" element={<NotFound />}/>
         </Routes>
         <Footer />
