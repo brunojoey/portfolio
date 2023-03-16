@@ -1,24 +1,125 @@
 .portfolio {
   margin: 1rem;
+
+  &>h1 {
+    text-align: center;
+  }
+
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  & > a > .fa {
+    font-size: 1.5em;
+    margin: .8rem .5rem 0 .5rem;
+    color: rgb(38, 38, 65);
+    transition: 0.3s ease;
+
+    &:hover {
+      transform: translateY(-0.5rem) scale(1.3);
+    }
+  }
+
 }
 
 .projects {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  // display: grid;
+  // grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 
-  &-one, &-two, &-three, &-four, &-five {
+
+  &-one,
+  &-two,
+  &-three,
+  &-four,
+  &-five {
     display: flex;
     flex-direction: column;
+    width: 45%;
 
-    & > img {
+    & > h3 {
+      font-size: larger;
+    }
+    &>img {
       margin: 1rem 1rem 1rem 0;
-      border: 5px solid rgb(12, 12, 74);
+      border: 5px solid rgb(101, 101, 224);
       border-radius: 4px;
       padding: 0.5rem;
     }
 
-    & > span > p {
-      width: 85%;
+    &>a {
+      background-color: rgba(38, 38, 65, 0.9);
+      width: 35%;
+      color: white;
+      text-align: center;
+      padding: .5rem;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: 0.3s ease;
+
+      &:hover {
+        transform: translateY(-0.5rem) scale(1);
+        text-decoration: underline;
+        font-weight: bold;
+        box-shadow: 2px 2px 4px grey;
+      }
     }
+  }
+
+  &-two {
+    &>a {
+      width: 45%;
+    }
+  }
+}
+
+.home {
+  margin: 1rem 1rem 2rem 1rem;
+
+  &>h1, h2 {
+    text-align: center;
+  }
+
+  &-info {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+
+    &>img {
+      margin: 0 auto;
+      border: 5px solid rgb(101, 101, 224);
+      border-radius: 10rem;
+      box-shadow: 3px 3px 5px grey;
+    }
+
+    &>p {
+      width: 80%;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &-technologies {
+    &>h2 {
+      text-align: center;
+    }
+
+    &>ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+}
+
+@media screen {
+  .home {
+    display: flex;
+    flex-direction: column;
   }
 }

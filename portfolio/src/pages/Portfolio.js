@@ -6,11 +6,11 @@ import "./index.scss";
 
 const Portfolio = () => {
   return (
-    <div className="portfolio">
-      <h1>Selected Applications</h1>
+    <div className="portfolio" id="portfolio">
+      <h2>Selected Projects</h2>
       <div className="projects">
         <div className="projects-one">
-          <h2>The 2 Senses</h2>
+          <h3>The 2 Senses</h3>
           <img
             src={colorBlindness}
             alt="Homepage of Color Blindness Website, The 2 Senses. With Goal and Testing Idea paragraphs explaining our process."
@@ -24,14 +24,14 @@ const Portfolio = () => {
               tests to the rural communities of India. Worked with a small group
               to create a variety of tests to assist in identifying color
               blindness and hearing disabilities within the rural areas of
-              India. It is currently being used by hundreds of NGO volunteers,
+              India. It is currently being used by hundreds of Non-Governmental Organizations (NGO's) volunteers,
               which include the Hope Charitable Trust.
             </p>
           </span>
           <a href="https://www.the2senses.com">Go to The 2 Senses</a>
         </div>
         <div className="projects-two">
-          <h2>Thrive Pediatric Therapy</h2>
+          <h3>Thrive Pediatric Therapy</h3>
           <img
             src={thriveTherapy}
             alt="Homepage of Thrive Pediatric Therapy in Gallatin, TN."
@@ -41,9 +41,9 @@ const Portfolio = () => {
           <span>
             <b>Description: </b>
             <p>
-              Landing Page for the Occupational Therapy business, Thrive
-              Pediatric Therapy located in Gallatin, Tennessee. Showcases the
-              business’ values, services, and resources.
+              Home for the Occupational Therapy business, Thrive
+              Pediatric Therapy located in Gallatin, Tennessee. This website showcases the
+              business' values, services, and resources.
             </p>
           </span>
           <a href="http://www.thrivepediatrictherapy.org">
@@ -51,7 +51,7 @@ const Portfolio = () => {
           </a>
         </div>
         <div className="projects-three">
-          <h2>The Easy Allies' Hall of Greats</h2>
+          <h3>The Easy Allies' Hall of Greats</h3>
           <img
             src={hallGreats}
             alt="Homepage of The Easy Allies Hall of Greats Website. Five links to the About, Inductees, Nominees, Ceremonies, and Allies pages. "
@@ -70,7 +70,7 @@ const Portfolio = () => {
           <a href="https://www.thehallofgreats.com">Go to The Hall of Greats</a>
         </div>
         <div className="projects-four">
-          <h2>Pokedex Application</h2>
+          <h3>Pokedex Application</h3>
           <img
             src={pokedex}
             alt="Homepage of The Pokedex Application. The first page lists out each Pokemon starting from the first, Bulbasaur."
@@ -89,8 +89,8 @@ const Portfolio = () => {
             Go to Pokedex
           </a>
         </div>
-        <div className="projects-four">
-          <h2>The Fame of Honors</h2>
+        {/* <div className="projects-four">
+          <h3>The Fame of Honors</h3>
           <img
             src={thriveTherapy}
             alt="Homepage of The Fame of Honors"
@@ -108,7 +108,7 @@ const Portfolio = () => {
           <a href="http://www.thrivepediatrictherapy.org">Go to The Fame of Honors</a>
         </div>
         <div className="projects-five">
-          <h2>The Fame of Honors</h2>
+          <h3>The Fame of Honors</h3>
           <img
             src={thriveTherapy}
             alt="Homepage of The Fame of Honors"
@@ -124,7 +124,7 @@ const Portfolio = () => {
             </p>
           </span>
           <a href="http://www.thrivepediatrictherapy.org">Go to The Fame of Honors</a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
