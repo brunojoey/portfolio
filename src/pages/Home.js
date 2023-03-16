@@ -1,41 +1,39 @@
-import React from "react";
-import buildRoutes from "../utils/buildRoutes";
-import Container from "../components/Container";
-import { Row, Col, Image } from "react-bootstrap";
-import "./style.css";
+import joeyPhoto from "../images/professional-joey-photo.jpg";
+import Contact from "./Contact";
+import TechnologyList from "../components/TechnologyList";
+import "./index.scss";
+import Portfolio from "./Portfolio";
 
-const joeyBruno = "/images/professional-joey-photo.jpg";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-function Home() {
+const Home = () => {
   return (
-    <div className="home mt-5" style={{ marginBottom: "7em" }}>
-      <Container>
-        <h1 className="m-3">Joseph Angelo Bruno</h1>
-        <Row>
-          <Col s={3} m={3} lg={4}>
-            <Image
-              src={buildRoutes(joeyBruno)}
-              alt="Joey Bruno"
-              className="joey"
-              fluid
-            />
-          </Col>
-          <Col className="joeyText m-5" s={9} m={8}>
-            <p className="mt-5">
-              {" "}
-              A Web Developer that has Social Media experience from working with
-              Rizzy Home in Calhoun, Georgia where I gained valuable knowledge
-              of brand organization and brand design. Recently gained a coding
-              certificate in Vanderbilt's Web Developer Bootcamp. Proficient in
-              HTML, CSS, JavaScript, React, Node.Js, Express, etc. An excellent
-              communicator and collaborator that works well on team-based
-              projects as well as independently.{" "}
-            </p>
-          </Col>
-        </Row>
-      </Container>
+    <div className="home">
+      <h1>Joseph Angelo Bruno</h1>
+      <div className="home-info">
+        <img src={joeyPhoto} alt="Face of Joey Bruno" width="300px" />
+        <p>
+          Creative Full Stack Web Developer, certified in ServiceNow System Administration, with
+          expertise in User Interface Design and Front End Web Development. History of creating and
+          maintaining applications for workflow optimization within a Fortune 500 consulting
+          firm and a national educational institution. An excellent communicator and collaborator
+          with strengths that include exceptional problem-solving, working well on team-based
+          projects, and knowledge of typography.
+        </p>
+      </div>
+      <section className="home-portfolio">
+        <Portfolio />
+      </section>
+      <section className="home-technologies">
+        <h2>Utilized Technologies</h2>
+        <TechnologyList />
+      </section>
+      <section className="home-contact">
+        <h2>Contact Me</h2>
+        <Contact />
+      </section>
     </div>
   );
-}
+};
 
 export default Home;
