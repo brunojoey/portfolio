@@ -1,88 +1,7 @@
-.portfolio {
-  margin: 1rem;
-
-  &>h1 {
-    text-align: center;
-  }
-
-}
-
-.contact {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-
-  & > a > .fa {
-    font-size: 1.5em;
-    margin: .8rem .5rem 0 .5rem;
-    color: rgb(38, 38, 65);
-    transition: 0.3s ease;
-
-    &:hover {
-      transform: translateY(-0.5rem) scale(1.3);
-    }
-  }
-
-}
-
-.projects {
-  // display: grid;
-  // grid-template-columns: 1fr 1fr;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-
-
-  &-one,
-  &-two,
-  &-three,
-  &-four,
-  &-five {
-    display: flex;
-    flex-direction: column;
-    width: 45%;
-
-    & > h3 {
-      font-size: larger;
-    }
-    &>img {
-      margin: 1rem 1rem 1rem 0;
-      border: 5px solid rgb(101, 101, 224);
-      border-radius: 4px;
-      padding: 0.5rem;
-    }
-
-    &>a {
-      background-color: rgba(38, 38, 65, 0.9);
-      width: 35%;
-      color: white;
-      text-align: center;
-      padding: .5rem;
-      border-radius: 4px;
-      text-decoration: none;
-      transition: 0.3s ease;
-
-      &:hover {
-        transform: translateY(-0.5rem) scale(1);
-        text-decoration: underline;
-        font-weight: bold;
-        box-shadow: 2px 2px 4px grey;
-      }
-    }
-  }
-
-  &-two {
-    &>a {
-      width: 45%;
-    }
-  }
-}
-
 .home {
   margin: 1rem 1rem 2rem 1rem;
 
-  &>h1, h2 {
+  & > h1, h2 {
     text-align: center;
   }
 
@@ -90,7 +9,7 @@
     display: grid;
     grid-template-columns: 2fr 2fr;
 
-    &>img {
+    & > img {
       margin: 0 auto;
       border: 5px solid rgb(101, 101, 224);
       border-radius: 10rem;
@@ -117,9 +36,173 @@
   }
 }
 
-@media screen {
-  .home {
+@media screen and (max-width: 37.5em) {
+  .home-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-technologies {
+    & > ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+    }
+  }
+}
+
+
+
+.portfolio {
+  margin: 1rem;
+
+  & > h1 {
+    text-align: center;
+  }
+
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+
+  &-one,
+  &-two,
+  &-three,
+  &-four,
+  &-five {
     display: flex;
     flex-direction: column;
+    width: 45%;
+
+    & > h3 {
+      font-size: larger;
+    }
+
+    & > img {
+      margin: 1rem 1rem 1rem 0;
+      border: 5px solid rgb(101, 101, 224);
+      border-radius: 4px;
+      padding: 0.5rem;
+    }
+
+    & > a {
+      background-color: rgba(38, 38, 65, 0.9);
+      width: 35%;
+      color: white;
+      text-align: center;
+      padding: .5rem;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: 0.3s ease;
+
+      &:hover {
+        transform: translateY(-0.5rem) scale(1);
+        text-decoration: underline;
+        font-weight: bold;
+        box-shadow: 2px 2px 4px grey;
+      }
+    }
+  }
+
+  &-two {
+    & > a {
+      width: 45%;
+    }
+  }
+}
+
+@media screen and (max-width: 37.5em) {
+  .projects {
+    flex-direction: column;
+    align-items: center;
+
+    & > &-one {
+      width: 100%;
+
+      & > h3 {
+        text-align: center;
+      }
+
+      & > img {
+        width: 300px;
+      }
+
+      & > a {
+        width: 100%;
+      }
+    } 
+
+    & > &-two {
+      width: 100%;
+      margin: 1em 0;
+
+      & > h3 {
+        text-align: center;
+      }
+
+      & > img {
+        width: 300px;
+      }
+
+      & > a {
+        width: 100%;
+      }
+    }
+
+    & > &-three {
+      width: 100%;
+
+      & > h3 {
+        text-align: center;
+      }
+
+      & > img {
+        width: 300px;
+      }
+
+      & > a {
+        width: 100%;
+      }
+    }
+
+    & > &-four {
+      width: 100%;
+
+      & > h3 {
+        text-align: center;
+      }
+      
+      & > img {
+        width: 300px;
+      }
+
+      & > a {
+        width: 100%;
+      }
+    } 
+  }
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  & > a > .fa {
+    font-size: 1.5em;
+    margin: .8rem .5rem 0 .5rem;
+    color: rgb(38, 38, 65);
+    transition: 0.3s ease;
+
+    &:hover {
+      transform: translateY(-0.5rem) scale(1.3);
+    }
   }
 }
