@@ -2,12 +2,13 @@ const TechnologyList = () => {
   return (
     <div className="home-technologies" id="technologies">
       <ul>
-        <li>React</li>
-        <li>React</li>
-        <li>React</li>
-        <li>React</li>
-        <li>React</li>
-        <li>React</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React.js</li>
+        <li>MongoDB</li>
+        <li>Node.js</li>
+        <li>Express.js</li>
         <span className="fa fa-git"></span>
         <span className="fab fa-react"></span>
       </ul>
