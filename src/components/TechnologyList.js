@@ -9,8 +9,8 @@ const TechnologyList = () => {
         <li>MongoDB</li>
         <li>Node.js</li>
         <li>Express.js</li>
-        <span className="fa fa-git"></span>
-        <span className="fab fa-react"></span>
+        {/* <span className="fa fa-git"></span>
+        <span className="fab fa-react"></span> */}
       </ul>
       {/* <FontAwesomeIcon icon="fa-brands fa-css3" className="fa-icon" />
         <span className="fa fa-css3"></span>
